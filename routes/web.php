@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/','StaticPagesController@home')->name('home');
 Route::get('/help','StaticPagesController@help')->name('help');
 Route::get('/about','StaticPagesController@about')->name('about');
+
+Route::get('index','AdminController@index')->name('index');
+Route::get('carousel','AdminController@carousel')->name('carousel');
