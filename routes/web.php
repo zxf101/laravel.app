@@ -21,3 +21,5 @@ Route::get('/about','StaticPagesController@about')->name('about');
 
 Route::get('index','AdminController@index')->name('index');
 Route::get('carousel','AdminController@carousel')->name('carousel');
+
+Route::get('signup','UsersController@create')->name('signup');
